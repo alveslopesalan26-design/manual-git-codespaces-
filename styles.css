@@ -1,0 +1,56 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+ 
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #4dcc79; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  /* ERRO: a propriedade abaixo garante que o body ocupe 100% da tela — qual é ela? */ 
+  height: 100vh; 
+} 
+ 
+.container { 
+  background-color: #9a7a51; 
+  padding: 40px; 
+  border-radius: 12px; 
+  /* ERRO: a linha abaixo deveria criar uma sombra suave no cartão */ 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  width: 100%; 
+  max-width: 420px; 
+} 
+ 
+label { 
+  /* ERRO: label deve ocupar a linha inteira (não ficar ao lado do input) */ 
+  display: block; 
+  margin-bottom: 6px; 
+  font-size: 14px; 
+  font-weight: bold; 
+} 
+ 
+input { 
+  /* ERRO: o input deve ocupar toda a largura disponível */ 
+  width: 100%; 
+  padding: 12px 14px; 
+  border: 1px solid #6ee58a; 
+  border-radius: 6px; 
+  font-size: 15px; 
+} 
+ 
+/* TAREFA: adicione o estilo para o botão #btnCadastrar */ 
+btn-cadastrar {      
+/* Ele deve ter: fundo azul (#1a5276), texto branco, largura 100%, padding 14px, */ 
+ background-color:#225130;
+ color: rgb(230, 200, 129); 
+ width:100% ;
+ padding: 14px;  
+/* sem borda (border: none), border-radius 6px, cursor pointer */
+border:none;
+border-radius:6px;
+cursor:pointer
+}
+/* sem borda (border: none), border-radius 6px, cursor pointer */ 
